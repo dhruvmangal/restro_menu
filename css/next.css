@@ -1,0 +1,4 @@
+function openNav(){
+document.getElementByClass("sidenav").style.display=block;
+document.getElementByClass("dropdownbar").style.height:50px;
+}

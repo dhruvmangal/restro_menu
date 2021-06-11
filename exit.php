@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION["name"]);
+unset($_SESSION["phone"]);
+unset($_SESSION["order_name"]);
+unset($_SESSION["discount"]);
+unset($_SESSION["table"]);
+session_write_close();
+header("location:login.php");
+?>
